@@ -32,6 +32,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TransferenciaListComponent } from './components/transferencia/transferencia-list/transferencia-list.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { TransferenciaListComponent } from './components/transferencia/transfere
     NavComponent,
     HomeComponent,
     HeaderComponent,
-    TransferenciaListComponent
+    TransferenciaListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
